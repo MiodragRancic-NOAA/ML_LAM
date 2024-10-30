@@ -1,0 +1,13 @@
+These files (0-h and 1-h forecasts) are from the RRFS 01Z cycle of September 26, 2024.
+
+The grid specs for this 2.5 km Maryland grid on the LCC projection are:
+
+wgrib2 -V rrfs.t01z.prslev.f001.md_lcc.grib2 -match "TMP:2 m above"
+691:24219948:vt=2024092602:2 m above ground:1 hour fcst:TMP Temperature [K]:
+    ndata=72225:undef=0:mean=293.029:min=286.519:max=299.259
+    grid_template=30:winds(grid):
+        Lambert Conformal: (321 x 225) input WE:SN output WE:SN res 56
+        Lat1 37.000000 Lon1 278.000000 LoV 265.000000
+        LatD 25.000000 Latin1 25.000000 Latin2 25.000000
+        LatSP -90.000000 LonSP 0.000000
+        North Pole (321 x 225) Dx 2500.000000 m Dy 2500.000000 m mode 56
